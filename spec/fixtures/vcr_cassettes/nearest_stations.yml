@@ -1,0 +1,212 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://developer.nrel.gov/api/alt-fuel-stations/v1/nearest.json?api_key=<Nrel>&fuel_type=ELEC&limit=1&location=5224%20W25th%20Ave,%20Edgewater,%20CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 13 Nov 2023 06:43:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Max-Age:
+      - '86400'
+      Age:
+      - '2'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Last-Modified:
+      - Mon, 13 Nov 2023 06:43:56 GMT
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      - max-age=31536000; preload
+      Vary:
+      - Accept-Encoding
+      - Accept-Encoding,Origin
+      Via:
+      - https/1.1 api-umbrella (ApacheTrafficServer [cMsSf ])
+      X-Api-Umbrella-Request-Id:
+      - cbotm2leqgusmshgpb80
+      X-Cache:
+      - MISS
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Ratelimit-Remaining:
+      - '994'
+      X-Request-Id:
+      - 62149032474a97df6d05f1100f0cde45
+      X-Runtime:
+      - '0.013886'
+      X-Vcap-Request-Id:
+      - 42c29f09-576a-4f64-4e61-5d2613ad79ed
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+    body:
+      encoding: ASCII-8BIT
+      string: '{"latitude":39.75283,"longitude":-105.05328,"location_country":"US","precision":{"value":4,"name":"locality","types":["locality","political"]},"station_locator_url":"https://afdc.energy.gov/stations/","total_results":270,"station_counts":{"total":711,"fuels":{"BD":{"total":0},"E85":{"total":0},"ELEC":{"total":711,"stations":{"total":270}},"HY":{"total":0},"LNG":{"total":0},"CNG":{"total":0},"LPG":{"total":0},"RD":{"total":0}}},"offset":0,"fuel_stations":[{"access_code":"public","access_days_time":"24
+        hours daily","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2023-07-01","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":302537,"open_date":null,"owner_type_code":"P","status_code":"E","restricted_access":null,"maximum_vehicle_class":null,"station_name":"Edgewater
+        Public Market - Tesla Supercharger","station_phone":"877-798-3752","updated_at":"2023-07-14T19:41:28Z","facility_type":null,"geocode_status":"GPS","latitude":39.748196,"longitude":-105.057777,"city":"Edgewater","intersection_directions":null,"plus4":null,"state":"CO","street_address":"5505
+        W 20th Ave","zip":"80214","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"cng_has_rng":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["TESLA"],"ev_dc_fast_num":8,"ev_level1_evse_num":null,"ev_level2_evse_num":null,"ev_network":"Tesla","ev_network_web":"https://www.tesla.com/supercharger","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"ev_workplace_charging":false,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lng_has_rng":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"rd_blends":null,"rd_blends_fr":null,"rd_blended_with_biodiesel":null,"rd_max_biodiesel_level":null,"nps_unit_name":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["29612"]},"distance":0.39945,"distance_km":0.64285}]}'
+  recorded_at: Mon, 13 Nov 2023 06:43:56 GMT
+- request:
+    method: get
+    uri: https://developer.nrel.gov/api/alt-fuel-stations/v1/nearest.json?api_key=<Nrel>&fuel_type=ELEC&limit=1&location=5224%20W25th%20Ave,%20Edgewater,%20CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 13 Nov 2023 06:43:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Max-Age:
+      - '86400'
+      Age:
+      - '0'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Last-Modified:
+      - Mon, 13 Nov 2023 06:43:56 GMT
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      - max-age=31536000; preload
+      Vary:
+      - Accept-Encoding
+      - Accept-Encoding,Origin
+      Via:
+      - https/1.1 api-umbrella (ApacheTrafficServer [cMsSf ])
+      X-Api-Umbrella-Request-Id:
+      - cbotm2lmocissq12ir10
+      X-Cache:
+      - MISS
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Ratelimit-Remaining:
+      - '993'
+      X-Request-Id:
+      - 4c91f28298d4c69751bfa93e949de298
+      X-Runtime:
+      - '0.016458'
+      X-Vcap-Request-Id:
+      - '09b866f1-e11d-49f6-65bb-90e171aa7475'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+    body:
+      encoding: ASCII-8BIT
+      string: '{"latitude":39.75283,"longitude":-105.05328,"location_country":"US","precision":{"value":4,"name":"locality","types":["locality","political"]},"station_locator_url":"https://afdc.energy.gov/stations/","total_results":270,"station_counts":{"total":711,"fuels":{"BD":{"total":0},"E85":{"total":0},"ELEC":{"total":711,"stations":{"total":270}},"HY":{"total":0},"LNG":{"total":0},"CNG":{"total":0},"LPG":{"total":0},"RD":{"total":0}}},"offset":0,"fuel_stations":[{"access_code":"public","access_days_time":"24
+        hours daily","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2023-07-01","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":302537,"open_date":null,"owner_type_code":"P","status_code":"E","restricted_access":null,"maximum_vehicle_class":null,"station_name":"Edgewater
+        Public Market - Tesla Supercharger","station_phone":"877-798-3752","updated_at":"2023-07-14T19:41:28Z","facility_type":null,"geocode_status":"GPS","latitude":39.748196,"longitude":-105.057777,"city":"Edgewater","intersection_directions":null,"plus4":null,"state":"CO","street_address":"5505
+        W 20th Ave","zip":"80214","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"cng_has_rng":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["TESLA"],"ev_dc_fast_num":8,"ev_level1_evse_num":null,"ev_level2_evse_num":null,"ev_network":"Tesla","ev_network_web":"https://www.tesla.com/supercharger","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"ev_workplace_charging":false,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lng_has_rng":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"rd_blends":null,"rd_blends_fr":null,"rd_blended_with_biodiesel":null,"rd_max_biodiesel_level":null,"nps_unit_name":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["29612"]},"distance":0.39945,"distance_km":0.64285}]}'
+  recorded_at: Mon, 13 Nov 2023 06:43:56 GMT
+- request:
+    method: get
+    uri: https://www.mapquestapi.com/directions/v2/route?from=5224%20W25th%20Ave,%20Edgewater,%20CO&key=<MapQuest>&to=5505%20W%2020th%20Ave%20Edgewater%20CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 13 Nov 2023 06:43:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '5055'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-2628000:
+      - '15000'
+      X-Ratelimit-Remaining-2628000:
+      - '14991'
+      Ratelimit-Limit:
+      - '15000'
+      Ratelimit-Remaining:
+      - '14991'
+      Ratelimit-Reset:
+      - '458163'
+      X-Powered-By:
+      - MapQuest
+      X-Request-Id:
+      - 050e6e30-81f0-11ee-94c4-5f583d58c193
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Transaction-Count:
+      - all=3,geocoding=2,directions=1
+      Etag:
+      - W/"13bf-/LpDA0xRgpPQs8tJ9YwS8yYiG4A"
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJzZXNzaW9uSWQiOiJBSFVBNXdjQUFEZ0JBQUFXQUFBQUVnQUFBSW9BQUFCNDJtUG9ZbUJnWkdKZ1lHRFBTQzFLdFVyTzNiUkcwd0RJWmZqX18zODlsOThpYjFQMUV5NHhXeGQ3bTZvQmFRWXNBS2FSeHdxaThSOVFKd1BURnlfVEI5d3VNZDJmSVRRRER0RFRjcnhTRzBnbk1EQndDRElCQU1Vd0g3SzkyekFXOmNhciIsInJlYWxUaW1lIjoxMTksImRpc3RhbmNlIjowLjYzOTQsInRpbWUiOjEyMiwiZm9ybWF0dGVkVGltZSI6IjAwOjAyOjAyIiwiaGFzSGlnaHdheSI6ZmFsc2UsImhhc1RvbGxSb2FkIjpmYWxzZSwiaGFzQnJpZGdlIjpmYWxzZSwiaGFzU2Vhc29uYWxDbG9zdXJlIjpmYWxzZSwiaGFzVHVubmVsIjpmYWxzZSwiaGFzRmVycnkiOmZhbHNlLCJoYXNVbnBhdmVkIjpmYWxzZSwiaGFzVGltZWRSZXN0cmljdGlvbiI6ZmFsc2UsImhhc0NvdW50cnlDcm9zcyI6ZmFsc2UsImxlZ3MiOlt7ImluZGV4IjowLCJoYXNUb2xsUm9hZCI6ZmFsc2UsImhhc0hpZ2h3YXkiOmZhbHNlLCJoYXNCcmlkZ2UiOmZhbHNlLCJoYXNVbnBhdmVkIjpmYWxzZSwiaGFzVHVubmVsIjpmYWxzZSwiaGFzU2Vhc29uYWxDbG9zdXJlIjpmYWxzZSwiaGFzRmVycnkiOmZhbHNlLCJoYXNDb3VudHJ5Q3Jvc3MiOmZhbHNlLCJoYXNUaW1lZFJlc3RyaWN0aW9uIjpmYWxzZSwiZGlzdGFuY2UiOjAuNjM5NCwidGltZSI6MTE5LCJmb3JtYXR0ZWRUaW1lIjoiMDA6MDE6NTkiLCJvcmlnSW5kZXgiOjAsIm9yaWdOYXJyYXRpdmUiOiIiLCJkZXN0SW5kZXgiOjAsImRlc3ROYXJyYXRpdmUiOiIiLCJtYW5ldXZlcnMiOlt7ImluZGV4IjowLCJkaXN0YW5jZSI6MC4zNTc5LCJuYXJyYXRpdmUiOiJIZWFkIHNvdXRoIG9uIFNoZXJpZGFuIEJsdmQgKENPLTk1KS4gR28gZm9yIDAuNCBtaS4iLCJ0aW1lIjo0NCwiZGlyZWN0aW9uIjo0LCJkaXJlY3Rpb25OYW1lIjoiU291dGgiLCJzaWducyI6W10sIm1hbmV1dmVyTm90ZXMiOltdLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MDA6NDQiLCJ0cmFuc3BvcnRNb2RlIjoiY2FyIiwic3RhcnRQb2ludCI6eyJsYXQiOjM5Ljc1MjgzLCJsbmciOi0xMDUuMDUzMjV9LCJ0dXJuVHlwZSI6MCwiYXR0cmlidXRlcyI6MCwiaWNvblVybCI6IiIsInN0cmVldHMiOlsiQ08tOTUiLCJTaGVyaWRhbiBCbHZkIl0sIm1hcFVybCI6Imh0dHBzOi8vd3d3Lm1hcHF1ZXN0YXBpLmNvbS9zdGF0aWNtYXAvdjUvbWFwP2tleT08TWFwUXVlc3Q+JnNpemU9MjI1LDE2MCZsb2NhdGlvbnM9MzkuNzUyODMsLTEwNS4wNTMyNXxtYXJrZXItMXx8MzkuNzQ3NjMsLTEwNS4wNTMyNHxtYXJrZXItMnx8JmNlbnRlcj0zOS43NTAyMywtMTA1LjA1MzI0NSZkZWZhdWx0TWFya2VyPW5vbmUmem9vbT0xNCZzZXNzaW9uPUFIVUE1d2NBQURnQkFBQVdBQUFBRWdBQUFJb0FBQUI0Mm1Qb1ltQmdaR0pnWUdEUFNDMUt0VXJPM2JSRzB3RElaZmpfXzM4OWw5OGliMVAxRXk0eFd4ZDdtNm9CYVFZc0FLYVJ4d3FpOFI5UUp3UFRGeV9UQjl3dU1kMmZJVFFERHREVGNyeFNHMGduTURCd0NESUJBTVV3SDdLOTJ6QVc6Y2FyIn0seyJpbmRleCI6MSwiZGlzdGFuY2UiOjAuMjAxOSwibmFycmF0aXZlIjoiVHVybiByaWdodCBvbnRvIFcgMjB0aCBBdmUuIEdvIGZvciAwLjIgbWkuIiwidGltZSI6MzAsImRpcmVjdGlvbiI6NywiZGlyZWN0aW9uTmFtZSI6Ildlc3QiLCJzaWducyI6W10sIm1hbmV1dmVyTm90ZXMiOltdLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MDA6MzAiLCJ0cmFuc3BvcnRNb2RlIjoiY2FyIiwic3RhcnRQb2ludCI6eyJsYXQiOjM5Ljc0NzYzLCJsbmciOi0xMDUuMDUzMjR9LCJ0dXJuVHlwZSI6MiwiYXR0cmlidXRlcyI6MCwiaWNvblVybCI6IiIsInN0cmVldHMiOlsiVyAyMHRoIEF2ZSJdLCJtYXBVcmwiOiJodHRwczovL3d3dy5tYXBxdWVzdGFwaS5jb20vc3RhdGljbWFwL3Y1L21hcD9rZXk9PE1hcFF1ZXN0PiZzaXplPTIyNSwxNjAmbG9jYXRpb25zPTM5Ljc0NzYzLC0xMDUuMDUzMjR8bWFya2VyLTJ8fDM5Ljc0NzY0MDAwMDAwMDAwNCwtMTA1LjA1NzAzfG1hcmtlci0zfHwmY2VudGVyPTM5Ljc0NzYzNSwtMTA1LjA1NTEzNSZkZWZhdWx0TWFya2VyPW5vbmUmem9vbT0xNSZzZXNzaW9uPUFIVUE1d2NBQURnQkFBQVdBQUFBRWdBQUFJb0FBQUI0Mm1Qb1ltQmdaR0pnWUdEUFNDMUt0VXJPM2JSRzB3RElaZmpfXzM4OWw5OGliMVAxRXk0eFd4ZDdtNm9CYVFZc0FLYVJ4d3FpOFI5UUp3UFRGeV9UQjl3dU1kMmZJVFFERHREVGNyeFNHMGduTURCd0NESUJBTVV3SDdLOTJ6QVc6Y2FyIn0seyJpbmRleCI6MiwiZGlzdGFuY2UiOjAuMDc5NSwibmFycmF0aXZlIjoiVHVybiByaWdodC4gR28gZm9yIDQyMCBmdC4iLCJ0aW1lIjo0NSwiZGlyZWN0aW9uIjoxLCJkaXJlY3Rpb25OYW1lIjoiTm9ydGgiLCJzaWducyI6W10sIm1hbmV1dmVyTm90ZXMiOltdLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MDA6NDUiLCJ0cmFuc3BvcnRNb2RlIjoiY2FyIiwic3RhcnRQb2ludCI6eyJsYXQiOjM5Ljc0NzY0MDAwMDAwMDAwNCwibG5nIjotMTA1LjA1NzAzfSwidHVyblR5cGUiOjIsImF0dHJpYnV0ZXMiOjAsImljb25VcmwiOiIiLCJzdHJlZXRzIjpbXSwibWFwVXJsIjoiaHR0cHM6Ly93d3cubWFwcXVlc3RhcGkuY29tL3N0YXRpY21hcC92NS9tYXA/a2V5PTxNYXBRdWVzdD4mc2l6ZT0yMjUsMTYwJmxvY2F0aW9ucz0zOS43NDc2NDAwMDAwMDAwMDQsLTEwNS4wNTcwM3xtYXJrZXItM3x8MzkuNzQ4NzkwMDAwMDAwMDE0LC0xMDUuMDU3MDN8bWFya2VyLTR8fCZjZW50ZXI9MzkuNzQ4MjE1MDAwMDAwMDEsLTEwNS4wNTcwMyZkZWZhdWx0TWFya2VyPW5vbmUmem9vbT0xNiZzZXNzaW9uPUFIVUE1d2NBQURnQkFBQVdBQUFBRWdBQUFJb0FBQUI0Mm1Qb1ltQmdaR0pnWUdEUFNDMUt0VXJPM2JSRzB3RElaZmpfXzM4OWw5OGliMVAxRXk0eFd4ZDdtNm9CYVFZc0FLYVJ4d3FpOFI5UUp3UFRGeV9UQjl3dU1kMmZJVFFERHREVGNyeFNHMGduTURCd0NESUJBTVV3SDdLOTJ6QVc6Y2FyIn0seyJpbmRleCI6MywiZGlzdGFuY2UiOjAsIm5hcnJhdGl2ZSI6IkFycml2ZSBhdCB5b3VyIGRlc3RpbmF0aW9uLiIsInRpbWUiOjAsImRpcmVjdGlvbiI6MCwiZGlyZWN0aW9uTmFtZSI6Ik5vbmUiLCJzaWducyI6W10sIm1hbmV1dmVyTm90ZXMiOltdLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MDA6MDAiLCJ0cmFuc3BvcnRNb2RlIjoiY2FyIiwic3RhcnRQb2ludCI6eyJsYXQiOjM5Ljc0ODc5MDAwMDAwMDAxNCwibG5nIjotMTA1LjA1NzAzfSwidHVyblR5cGUiOjAsImF0dHJpYnV0ZXMiOjAsImljb25VcmwiOiIiLCJzdHJlZXRzIjpbXX1dfV0sIm9wdGlvbnMiOnsicm91dGVUeXBlIjoiRkFTVEVTVCIsIm5hcnJhdGl2ZVR5cGUiOiJ0ZXh0IiwiZW5oYW5jZWROYXJyYXRpdmUiOmZhbHNlLCJ3YWxraW5nU3BlZWQiOi0xLCJoaWdod2F5RWZmaWNpZW5jeSI6MjIsImF2b2lkcyI6ZmFsc2UsImdlbmVyYWxpemUiOi0xLCJzaGFwZUZvcm1hdCI6InJhdyIsInVuaXQiOiJNIiwibG9jYWxlIjoiZW5fVVMiLCJ1c2VUcmFmZmljIjpmYWxzZSwidGltZVR5cGUiOjAsImRhdGVUeXBlIjowLCJkb1JldmVyc2VHZW9jb2RlIjp0cnVlLCJtYW5NYXBzIjp0cnVlLCJzaWRlT2ZTdHJlZXREaXNwbGF5Ijp0cnVlfSwiYm91bmRpbmdCb3giOnsidWwiOnsibGF0IjozOS43NTI4MywibG5nIjotMTA1LjA1NzAzfSwibHIiOnsibGF0IjozOS43NDc2MiwibG5nIjotMTA1LjA1MzIzfX0sInJvdXRlV2FybmluZ3MiOltdLCJuYW1lIjoiQ08tOTUgYW5kIFcgMjB0aCBBdmUiLCJtYXhSb3V0ZXMiOiIiLCJsb2NhdGlvbnMiOlt7InN0cmVldCI6IiIsImFkbWluQXJlYTYiOiIiLCJhZG1pbkFyZWE2VHlwZSI6Ik5laWdoYm9yaG9vZCIsImFkbWluQXJlYTUiOiJFZGdld2F0ZXIiLCJhZG1pbkFyZWE1VHlwZSI6IkNpdHkiLCJhZG1pbkFyZWE0IjoiSmVmZmVyc29uIiwiYWRtaW5BcmVhNFR5cGUiOiJDb3VudHkiLCJhZG1pbkFyZWEzIjoiQ08iLCJhZG1pbkFyZWEzVHlwZSI6IlN0YXRlIiwiYWRtaW5BcmVhMSI6IlVTIiwiYWRtaW5BcmVhMVR5cGUiOiJDb3VudHJ5IiwicG9zdGFsQ29kZSI6IiIsImdlb2NvZGVRdWFsaXR5Q29kZSI6IkE1WEFYIiwiZ2VvY29kZVF1YWxpdHkiOiJDSVRZIiwiZHJhZ1BvaW50IjpmYWxzZSwic2lkZU9mU3RyZWV0IjoiTiIsImxpbmtJZCI6IjAiLCJ1bmtub3duSW5wdXQiOiIiLCJ0eXBlIjoicyIsImxhdExuZyI6eyJsYXQiOjM5Ljc1MjgzLCJsbmciOi0xMDUuMDUzMjh9LCJkaXNwbGF5TGF0TG5nIjp7ImxhdCI6MzkuNzUyODMsImxuZyI6LTEwNS4wNTMyOH0sIm1hcFVybCI6IiJ9LHsic3RyZWV0IjoiNTUwNSBXIDIwdGggQXZlIiwiYWRtaW5BcmVhNiI6IiIsImFkbWluQXJlYTZUeXBlIjoiTmVpZ2hib3Job29kIiwiYWRtaW5BcmVhNSI6IkVkZ2V3YXRlciIsImFkbWluQXJlYTVUeXBlIjoiQ2l0eSIsImFkbWluQXJlYTQiOiJKZWZmZXJzb24iLCJhZG1pbkFyZWE0VHlwZSI6IkNvdW50eSIsImFkbWluQXJlYTMiOiJDTyIsImFkbWluQXJlYTNUeXBlIjoiU3RhdGUiLCJhZG1pbkFyZWExIjoiVVMiLCJhZG1pbkFyZWExVHlwZSI6IkNvdW50cnkiLCJwb3N0YWxDb2RlIjoiODAyMTQtMTIzOSIsImdlb2NvZGVRdWFsaXR5Q29kZSI6IlAxQUFBIiwiZ2VvY29kZVF1YWxpdHkiOiJBRERSRVNTIiwiZHJhZ1BvaW50IjpmYWxzZSwic2lkZU9mU3RyZWV0IjoiTCIsImxpbmtJZCI6IjAiLCJ1bmtub3duSW5wdXQiOiIiLCJ0eXBlIjoicyIsImxhdExuZyI6eyJsYXQiOjM5Ljc0ODc5LCJsbmciOi0xMDUuMDU3MDJ9LCJkaXNwbGF5TGF0TG5nIjp7ImxhdCI6MzkuNzQ4OTQsImxuZyI6LTEwNS4wNTcwM30sIm1hcFVybCI6IiJ9XSwibG9jYXRpb25TZXF1ZW5jZSI6WzAsMV19LCJpbmZvIjp7InN0YXR1c2NvZGUiOjAsImNvcHlyaWdodCI6eyJ0ZXh0IjoiwqkgMjAyMyBNYXBRdWVzdCwgSW5jLiIsImltYWdlVXJsIjoiaHR0cDovL2FwaS5tcWNkbi5jb20vcmVzL21xbG9nby5naWYiLCJpbWFnZUFsdFRleHQiOiLCqSAyMDIzIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbXX19
+  recorded_at: Mon, 13 Nov 2023 06:43:57 GMT
+recorded_with: VCR 6.2.0

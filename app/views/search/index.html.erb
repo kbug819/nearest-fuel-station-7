@@ -1,0 +1,11 @@
+<h1><%= @station.name %></h1>
+<p>Street Address: <%= @station.street_address %></p>
+<p>City: <%= @station.city %> </p>
+<p>Zip Code: <%= @station.zip_code %></p>
+<p>Access Times: <%= @station.access_times %></p>
+<p>Distance: <%= @directions.distance %></p>
+<p>Travel Time: <%= @directions.travel_time %></p>
+<h3> Directions </h3>
+<% @directions.directions.each do |direction|%>
+  <%= direction %><br>
+  <% end %>
